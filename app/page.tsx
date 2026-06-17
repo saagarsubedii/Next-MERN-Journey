@@ -17,7 +17,7 @@ export const metadata: Metadata ={
           <img 
             src="/logo.png" 
             alt="Logo" 
-            className="h-15 w-auto object-contain"
+            className="h-1 w-auto object-contain"
           />
         </div>
 
