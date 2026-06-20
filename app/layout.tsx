@@ -2,6 +2,8 @@ import{ ReactNode} from "react";
 import { Roboto, Roboto_Mono} from "next/font/google";
 import "./globals.css";
 import { Metadata } from "next";
+import Home from "./page";
+import HomeHeader from "@/components/header/HomeHeader";
 
 
 //font ,image ,component
@@ -24,6 +26,7 @@ export default function Rootlayout({children}: Readonly<{children: React.ReactNo
  return(
   <html className={`${RobotoSans.variable} ${RobotoMono.variable} antialiased`}>
     <body>
+      <HomeHeader/>
       {children}
     </body>
   </html>
