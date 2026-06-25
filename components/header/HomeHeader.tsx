@@ -4,13 +4,14 @@ import Image from "next/image";
 
 export default function HomeHeader () {
     return(
-        <header className="bg-teal-50 text-black font-semibold p-5 w-full flex justify-between items-center">
+        <header className="bg-teal-50 text-black font-semibold p-2 w-full flex justify-between items-center">
         {/* Left Side: Logo */}
         <div className="flex items-center">
-          <img 
+          <img
             src="/logo.png" 
             alt="Logo" 
             className="h-1 w-auto object-contain"
+            width={11}
           />
         </div>
 

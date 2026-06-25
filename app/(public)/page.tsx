@@ -3,6 +3,7 @@
 // sync
 
 import HeroBannerSection from "@/components/Banner/HeroSection";
+import Footer from "@/components/footer/Footer";
 
 
 import { Metadata } from "next";
@@ -21,7 +22,9 @@ export const metadata: Metadata ={
       Featured Collection
     </h1>
   </div>
+     
     </section>
+    
        
     </>
   );

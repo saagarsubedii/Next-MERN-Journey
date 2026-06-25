@@ -1,9 +1,10 @@
 import{ ReactNode} from "react";
 import { Roboto, Roboto_Mono} from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { Metadata } from "next";
 import Home from "./page";
 import HomeHeader from "@/components/header/HomeHeader";
+import Footer from "@/components/footer/Footer";
 
 
 //font ,image ,component
@@ -28,6 +29,7 @@ export default function Rootlayout({children}: Readonly<{children: React.ReactNo
     <body>
       <HomeHeader/>
       {children}
+      <Footer/>
     </body>
   </html>
  )
