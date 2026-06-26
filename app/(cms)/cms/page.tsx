@@ -3,7 +3,7 @@
 export default function CMSDashboard () {
     return(<html>
         <body>
-           hellohjh
+           <p>hello</p>
         </body>
     </html>
     )

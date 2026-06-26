@@ -1,10 +1,11 @@
+import { TableRowSkeletion } from '@/components/ui/table/RowSkeletion';
 import Link from 'next/link';
 
 export default function BannerListPage() {
   return (
-    <div className="w-full flex flex-col gap-4 p-4">
+    <div className=" w-full flex flex-col gap-2 p-1">
                 {/* Top Section: Create Button */}
-        <div className="flex justify-between items-center mb-6">
+        <div className=" bg-gray-200 rounded-full flex justify-between items-center mb-6">
             {/* Left Side: Bold ra thulo heading text */}
             <h1 className="text-2xl md:text-3xl font-bold text-gray-800">
                 Banner Listing Page
@@ -22,7 +23,7 @@ export default function BannerListPage() {
         </div>
 
       {/* Search Bar Section */}
-      <div className="w-full flex justify-end">
+      <div className="w-full flex justify-end p-2 gap-2">
         <form className="w-1/3">
           <input
             type="search"
@@ -46,219 +47,8 @@ export default function BannerListPage() {
           </thead>
 
           <tbody>
-            <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr>
-             <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr>
-             <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr> <tr>
-              {/* Title Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Image Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* URL Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Status Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-              {/* Actions Column Loading Skeleton */}
-              <td className="p-3 border border-gray-800">
-                <p className="w-full h-2 rounded-full bg-gray-400 dynamic-pulse"></p>
-              </td>
-            </tr>
+            <TableRowSkeletion rows={10} cols={5} /> 
+            
           </tbody>
         </table>
       </div>
